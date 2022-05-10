@@ -1,7 +1,7 @@
-# DPER (Dynamic Programming for ER-SSAT)
+# DPER (dynamic-programming existential-random stochastic SAT solver)
 DPER runs in two phases:
-- The planning phase constructs a join tree of a CNF formula
-- The execution phase computes the maximum and a maximizer from the join tree
+- The planning phase constructs a graded project-join tree for a CNF formula.
+- The execution phase computes the maximum and a maximizer from the constructed tree.
 
 --------------------------------------------------------------------------------
 

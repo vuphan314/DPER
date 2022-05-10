@@ -2,6 +2,7 @@ eval/.ipynb_checkpoints/
 eval/benchmarks*
 eval/bin*
 eval/data*
+eval/jointrees*
 
 addmc/dmc
 addmc/htb

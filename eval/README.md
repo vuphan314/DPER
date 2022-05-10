@@ -15,7 +15,6 @@ wget https://github.com/vuphan314/DPER/releases/download/v0/benchmarks_sdimacs.z
 ### Extracting downloaded archives into the same new dir `eval/benchmarks`
 ```bash
 unzip benchmarks_cnf.zip
-
 unzip benchmarks_sdimacs.zip
 
 ```
@@ -81,9 +80,8 @@ c ------------------------------------------------------------------
 v 11 9 8 -2 -13 -5 -14 1 -12 0
 c seconds                     0.231
 ```
-#### ER-SSAT solution
-- the maximum is `0.03456`
-- a maximizer is `11 9 8 -2 -13 -5 -14 1 -12` (cube of literals)
+- The maximum is `0.03456`.
+- A maximizer is `11 9 8 -2 -13 -5 -14 1 -12` (cube of literals).
 
 ### DC-SSAT
 #### Command
@@ -153,14 +151,14 @@ unzip data.zip
 ```
 
 ### Files
-- Dir `data/100g/wpmc/dpmc`: DPER
-  - Files `data/100g/wpmc/dpmc/cudd/flow/*.in`: commands
-  - Files `data/100g/wpmc/dpmc/cudd/flow/*.log`: outputs
-- Dir `data/100g/wpmc/erssat`: erSSAT
-- Dir `data/100g/wpmc/dcssat`: DC-SSAT
+- Dir `data/mem1/wpmc/dpmc`: DPER
+  - Files `data/mem1/wpmc/dpmc/cudd/flow/*.in`: commands
+  - Files `data/mem1/wpmc/dpmc/cudd/flow/*.log`: outputs
+- Dir `data/mem1/wpmc/erssat`: erSSAT
+- Dir `data/mem1/wpmc/dcssat`: DC-SSAT
 
 --------------------------------------------------------------------------------
 
 ## [Jupyter notebook](dper.ipynb)
-- Near the end of the notebook, there are 2 figures used in the paper
-- Run all cells again to re-generate these figures from dir `data`
+- Near the end of the notebook, there are 2 figures used in the paper.
+- Run all cells again to re-generate these figures from dir `data`.
